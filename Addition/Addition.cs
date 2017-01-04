@@ -140,6 +140,19 @@ namespace MathFun
             {
                 Console.WriteLine("Exception Message: {0}", ex.Message);
             }
+            try
+            {
+                sbyte v1 = sbyte.MaxValue;
+                sbyte v2 = sbyte.MaxValue;
+                Console.WriteLine("Type: {0}", v1.GetType().Name);
+                Console.WriteLine("1. Value of v1 = {0}", v1);
+                v1 = (sbyte)(v2+v1);
+                Console.WriteLine("2. Value of v1 = {0}", v1);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception Message: {0}", ex.Message);
+            }
         }
     }
 }

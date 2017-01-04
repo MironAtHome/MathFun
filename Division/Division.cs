@@ -135,6 +135,19 @@
             {
                 Console.WriteLine("Exception Message: {0}", ex.Message);
             }
+            try
+            {
+                sbyte de = 0;
+                sbyte nu = 1;
+                Console.WriteLine("Type: {0}", de.GetType().Name);
+                Console.WriteLine("1. Value of de = {0}", de);
+                de = (sbyte)(nu/de);
+                Console.WriteLine("2. Value of de = {0}", de);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception Message: {0}", ex.Message);
+            }
         }
     }
 }
