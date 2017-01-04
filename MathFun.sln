@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02Division", "ZeroDivision\02Division.csproj", "{1857E1A4-E781-4B07-B011-AE806BFB4CCA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02Division", "Division\02Division.csproj", "{1857E1A4-E781-4B07-B011-AE806BFB4CCA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01Multiplication", "Multiplication\01Multiplication.csproj", "{409B1EBC-C517-4F25-BAF8-6ECA2D8F6FC9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03Addition", "Addition\03Addition.csproj", "{73E4B5C9-FE2D-48B2-AC78-65B502DB286F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04Subtruction", "Subtruction\04Subtruction.csproj", "{D538E16D-F058-4955-8240-6EA1E651A051}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7D56DBD8-730C-40A9-9235-BEAEF23545E0}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -33,6 +33,19 @@
             }
             try
             {
+                decimal v1 = decimal.MaxValue;
+                decimal v2 = decimal.MaxValue;
+                Console.WriteLine("Type: {0}", v1.GetType().Name);
+                Console.WriteLine("1. Value of v1 = {0}", v1);
+                v1 = v2 * v1;
+                Console.WriteLine("2. Value of v1 = {0}", v1);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception Message: {0}", ex.Message);
+            }
+            try
+            {
                 uint v1 = uint.MaxValue;
                 uint v2 = uint.MaxValue;
                 Console.WriteLine("Type: {0}", v1.GetType().Name);
